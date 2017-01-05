@@ -1,0 +1,25 @@
+Source: node-pkg-conf
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: FIX_ME debian author
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 3.9.8
+Homepage: https://github.com/sindresorhus/pkg-conf#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-pkg-conf.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-pkg-conf.git
+
+Package: node-pkg-conf
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-load-json-file (>= 2.0.0)
+ , node-find-up (>= 2.0.0)
+Description: Get namespaced config from the closest package.json
+ FIX_ME long description
+ .
+ Node.js is an event-based server-side JavaScript engine.

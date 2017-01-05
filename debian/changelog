@@ -1,0 +1,9 @@
+node-pkg-conf (2.0.0-1) UNRELEASED; urgency=low
+
+  [ FIX_ME debian author  Thu, 05 Jan 2017 11:22:35 +0000 ]
+  * Initial release (Closes: #nnnn)
+
+  [ root ]
+  * New upstream release
+
+ -- root <root@debian-sid>  Thu, 05 Jan 2017 11:23:52 +0000
