@@ -20,6 +20,10 @@ Depends:
  , node-load-json-file (>= 2.0.0)
  , node-find-up (>= 2.0.0)
 Description: Get namespaced config from the closest package.json
- FIX_ME long description
+ Continues searching upwards until the next `package.json` file is reached.
+ This can be useful when you need to support the ability for users to have
+ nested `package.json` files, but only read from the root one, like in the
+ case of [`electron-builder`] where you have one `package.json` file for the
+ app and one top-level for development.
  .
  Node.js is an event-based server-side JavaScript engine.
